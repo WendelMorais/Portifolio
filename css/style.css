@@ -17,7 +17,7 @@ section {
 
 
 	height: 65vh;
-	background-image: url("../_img/bg.jpg");
+	background-image: url("../img/bg.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
