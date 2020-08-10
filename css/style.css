@@ -12,7 +12,16 @@ a
 {
 	text-decoration: none;
 }
+.fonte{
+	font-family: Arial, sans-serif;
+	font-size: 1.2rem;
+	color: black;
 
+}
+
+.fonte2{
+	margin: 0px 20px;
+}
 section {
 
 
@@ -42,7 +51,7 @@ nav ul
 nav ul li a
 {
 	margin: 30px;
-	font-family: myriad pro regular;
+	font-family: Calibri, sans-serif;
 	color: #505050;
 	font-size: 15px;
 	font-weight: 700;
@@ -50,8 +59,8 @@ nav ul li a
 
 .logo
 {
-	font-family: Arial;
-	color: red;
+	font-family: Arial, serif;
+	color: black;
 	font-size: 22px;
 }
 
@@ -80,7 +89,7 @@ nav ul li a
 
 .conteudo-sobre
 {
-	font-family: "calibri";
+	font-family: calibri, sans-serif;
 	width: 100%;
 	height:350px;
 	background-color: #ffffff;
@@ -108,20 +117,20 @@ nav ul li a
 
 .texto-sobre  p:nth-child(1)
 {
-	color: #403e3e;
-	font-family: "calibri ";
+	color: black;
+	font-family: calibri, sans-serif ;
 	font-weight: bold;
-	font-size: 23px;
-	line-height: 0px;
+	font-size: 25px;
+	line-height: 0;
 	text-align: center;
 
 }
 
 .texto-sobre  p:nth-child(2)
 {
-	color: #3e3e3e;
-	font-size: 13px;
-	font-family: "calibri ";
+	color: black;
+	font-size: 16px;
+	font-family: calibri, sans-serif ;
 	font-weight: bold;
 
 }
@@ -134,7 +143,7 @@ nav ul li a
 	color: #ffffff;
 	outline: none;
 	border:none;
-	font-family: calibri;
+	font-family: calibri, sans-serif;
 	background-color: #262525;
 }
 
@@ -151,23 +160,24 @@ footer
 
 footer p
 {
-	font-family: "Roboto Thin";
+	font-family: Calibri, sans-serif;
+	color: black;
 }
 
 footer p:nth-child(1)
 {
 	font-weight: bold;
-	color: #191919;
+	color: black;
 	line-height: 10px;
 	font-size: 30px;
-	font-family: "Roboto Thin";
+	font-family: Calibri, sans-serif;
 }
 
 footer p:nth-child(2)
 {
 	font-size: 16px;
-	color: #7e7d7d;
-	font-family: "Roboto Thin";
+	color: black;
+	font-family: Calibri, sans-serif;
 	text-align: center;
 }
 
@@ -187,7 +197,7 @@ footer p:nth-child(2)
 {
 	color: black;
 	font-size: 30px;
-	font-family: "calibri";
+	font-family: calibri, sans-serif;
 	font-weight: bold;
 	border-bottom: 2px solid #ffffff;
 }
@@ -200,7 +210,7 @@ footer p:nth-child(2)
 	outline: none;
 	border:none;
 	font-size: 14px;
-	font-family: "Roboto Medium";
+	font-family: "Roboto Medium", sans-serif;
 	font-weight: bold;
 }
 
@@ -214,7 +224,7 @@ footer p:nth-child(2)
 
 #habilidades h1{
 	color: black;
-	font-family: "Arial Black";
+	font-family: "Arial Black", sans-serif;
 	font-size: 30px;
 }
 #habilidades p{
@@ -225,12 +235,12 @@ footer p:nth-child(2)
 	background-color: slategrey;
 }
 #projetos p {
-	font-family: "calibri";
+	font-family: "calibri", sans-serif;
 	font-size: 16px;
 	color: #191919;
 }
 #projetos h1 {
-	font-family: "Arial Black";
+	font-family: "Arial Black", sans-serif;
 	font-size: 30px;
 
 }
