@@ -102,8 +102,12 @@ nav ul li a
 	align-items: center;
 	
 }
-
 /* Estilo Imagem Sobre eu */
+@media (max-width: 600px) {
+	.texto-sobre{font-size: 13px}
+}
+
+
 .conteudo-sobre img
 {
 	height: 250px;
